@@ -1,0 +1,14 @@
+
+    <form [FormGroup] = "form">
+      <div >
+        <label for= "username">Username</label>
+        <input type = "text" placeholder="username" formControlName= "username">
+      </div>
+      <div>
+        <label for= "password" formControlName= "password">Password</label>
+        <input type = "password" placeholder="password">
+      </div>
+      <button (click)= "login()">Submit</button>
+    </form>
+    
+  
